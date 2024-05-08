@@ -17,3 +17,8 @@ jobs:
         uses: morawskiOZ/semver-regexp-validator@master
         with:
           version: '0.7.9-beta.1'
+      
+      - name: Test action stage
+        uses: morawskiOZ/semver-regexp-validator@master
+        with:
+          version: '1.35.0-stage-b4f008c2c'
