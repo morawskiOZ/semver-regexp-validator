@@ -1,15 +1,15 @@
 name: 'SEMVER validator'
-description: 'Validate SEMVER version'
+description: 'Validate SEMVER version with official regex from semver.org'
 inputs:
-  version:  # id of input
-    description: 'Who to greet'
+  version:
+    description: 'Version to validate'
     required: true
     default: '0.0.0'
 outputs:
-  is-valid: # id of output
+  is-valid:
     description: 'Return if the input version is valid'
 runs:
-  using: 'node16'
+  using: node20
   main: 'index.js'
 branding:
   icon: 'check-square'

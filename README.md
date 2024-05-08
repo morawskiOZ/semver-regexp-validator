@@ -1,3 +1,7 @@
+Forked from [rubenesp87/semver-validation-action](https://github.com/rubenesp87/semver-validation-action)
+
+Adjusted logic and uses official Regex from [semver docs](https://semver.org/#is-there-a-suggested-regular-expression-regex-to-check-a-semver-string)
+
 # Semver validation action
 
 SEMVER validator
