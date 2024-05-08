@@ -15,19 +15,19 @@ SEMVER validator
 ## Example usage
 
 ```yaml
-uses: morawskiOZ/semver-regexp-validator@1.0.3
+uses: morawskiOZ/semver-regexp-validator@v1.0.6
 with:
   version: ${{ github.event.release.tag_name }}
 ```
 
 ```yaml
-uses: morawskiOZ/semver-regexp-validator@1.0.3
+uses: morawskiOZ/semver-regexp-validator@v1.0.6
 with:
   version: 'v0.7.9'
 ```
 
 ```yaml
-uses: morawskiOZ/semver-regexp-validator@1.0.3
+uses: morawskiOZ/semver-regexp-validator@v1.0.6
 with:
   version: '0.7.9-beta.1'
 ```
