@@ -15,19 +15,19 @@ SEMVER validator
 ## Example usage
 
 ```yaml
-uses: rubenesp87/semver-validation-action@0.1.0
+uses: morawskiOZ/semver-validation-action@1.0.3
 with:
   version: ${{ github.event.release.tag_name }}
 ```
 
 ```yaml
-uses: rubenesp87/semver-validation-action@0.1.0
+uses: morawskiOZ/semver-validation-action@1.0.3
 with:
   version: 'v0.7.9'
 ```
 
 ```yaml
-uses: rubenesp87/semver-validation-action@0.1.0
+uses: morawskiOZ/semver-validation-action@1.0.3
 with:
   version: '0.7.9-beta.1'
 ```
