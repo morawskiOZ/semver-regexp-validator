@@ -1,4 +1,4 @@
-name: 'SEMVER validator'
+name: 'SEMVER-regexp-validator'
 description: 'Validate SEMVER version with official regex from semver.org'
 inputs:
   version:
